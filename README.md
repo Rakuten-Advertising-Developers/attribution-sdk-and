@@ -155,7 +155,7 @@ So your sendEvent() call might look like this
 
 #### Resolve application's deep links
 Another feature of Radattribution SDK is to handle application's deep links and handle it's metadata.
-Firstly you need to add an <intent-filter> section to you AndroidManifest.xml file. 
+Firstly you need to add an `<intent-filter>` section to you AndroidManifest.xml file. 
 To let operation system know that your application is able open http ans https links in rakutenadvertising.app.link domain
 ```xml
  <intent-filter android:label="@string/app_name">
@@ -185,7 +185,7 @@ You can put your application scheme to your gradle.build in buildTypes section l
     }
 ```
 
-Then you can add another <intent-filter> to your AndroidManifest.xml file     
+Then you can add another `<intent-filter>` to your AndroidManifest.xml file     
 ```xml
  <intent-filter android:label="@string/app_name">
                 <action android:name="android.intent.action.VIEW" />
